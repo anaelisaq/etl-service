@@ -34,7 +34,7 @@ O propósito desse serviço é ler o arquivo `base_teste.txt` e realizar valida�
 
 ## Estrutura relacional do projeto
 
-A partir desse serviço, será criada uma tabela chaamda `dbneoway` e está armazenada de modo público no PostgreSQL, seguindo a estrutura relacional:
+A partir desse serviço, será criada uma tabela chamada `dbneoway` e está armazenada de modo público no PostgreSQL, seguindo a estrutura relacional:
 
 Column name                      | Data Type
 ---------------------------------|-----------
