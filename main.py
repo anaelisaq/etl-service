@@ -2,7 +2,6 @@ import pandas as pd
 from validate_docbr import CPF, CNPJ
 from sqlalchemy import create_engine
 from sqlalchemy.exc import OperationalError
-import contextlib
 
 class Validator:
     def __init__(self):
