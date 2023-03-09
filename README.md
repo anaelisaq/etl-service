@@ -9,7 +9,7 @@ O propósito desse serviço é ler o arquivo `base_teste.txt` e realizar valida�
 > - [Docker](https://www.docker.com/products/docker-desktop)
 > 2. Clonar o repositório e colar no terminal o seguinte comando:
 > ```sh
-> git clone git@github.com:anaelisaq/neoway-test.git
+> git clone git@github.com:anaelisaq/etl-service.git
 > ```
 > 3. Executar o Docker Compose pelo terminal:
 > ```sh
