@@ -22,8 +22,30 @@ O propósito desse serviço é ler o arquivo `base_teste.txt` e realizar valida�
 >
 >
 
-Para realização desse desenvolvimento, foram utilizadas as seguintes bibliotecas
+## Para realização desse desenvolvimento, foram utilizadas as seguintes referências:
 
-vallidar cpf/cnpj https://www.alura.com.br/conteudo/python-validacao-dados#:~:text=Criando%20um%20novo%20Python%20file,contr%C3%A1rio%20o%20retorno%20ser%C3%A1%20False%20.
+- [Validar CPF/CNPJ](https://www.alura.com.br/conteudo/python-validacao-dados#:~:text=Criando%20um%20novo%20Python%20file,contr%C3%A1rio%20o%20retorno%20ser%C3%A1%20False%20.)
 
-pacote de validação documentos br https://github.com/alvarofpp/validate-docbr
+- [Tratamento de erros em Python](https://www.alura.com.br/artigos/tratamento-de-excecoes-no-python)
+
+- [PEP8](https://www.alura.com.br/conteudo/pep8-linters-python)
+
+- [Conexão Postgres através do SQLAlchemy](https://docs.sqlalchemy.org/en/20/dialects/postgresql.html)
+
+## Estrutura relacional do projeto
+
+A partir desse serviço, será criada uma tabela chaamda `dbneoway` e está armazenada de modo público no PostgreSQL, seguindo a estrutura relacional:
+
+Column name                      | Data Type
+---------------------------------|-----------
+CPF                              | VARCHAR
+PRIVATE                          | INTEGER
+INCOMPLETO                       | INTEGER
+DATA_DA_ULTIMA_COMPRA            | DATE
+TICKET_MEDIO                     | FLOAT
+TICKET_DA_ULTIMA_COMPRA          | FLOAT
+LOJA_MAIS_FREQUENTE              | VARCHAR
+LOJA_DA_ULTIMA_COMPRA            | VARCHAR
+CPF_VALIDO                       | VARCHAR
+CNPJ_LOJA_MAIS_FREQUENTE_VALIDO  | VARCHAR
+CNPJ_LOJA_DA_ULTIMA_COMPRA_VALIDO| VARCHAR
